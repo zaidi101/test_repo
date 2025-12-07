@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 @pytest.fixture(scope="session")
 def base_url():
-    return "http://YOUR-EC2-IP:5000"   # CHANGE THIS
+    return "http://ec2-13-50-99-146.eu-north-1.compute.amazonaws.com:5000"   # CHANGE THIS
 
 @pytest.fixture(scope="function")
 def driver():
